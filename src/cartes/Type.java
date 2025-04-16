@@ -2,8 +2,8 @@ package cartes;
 
 public enum Type {
 	FEU ("FeuRouge","FeuVert", "VehiculePrioritaire"),
-	ESSENCE ("Pane d'essance", "Citerne d'essance","Increvable"),
-	CREVAISON ("Crevaison", "Rou de secour","Increvable"),
+	ESSENCE ("Panne d'essence", "Essence" ,"Citerne d'essence"),
+	CREVAISON ("Crevaison", "Roue de secour","Increvable"),
 	ACCIDENT ("Accident", "Reparation", "As du volant");
 	
 	private String attaque;
